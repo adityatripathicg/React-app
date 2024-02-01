@@ -7,8 +7,10 @@ import ProductTab from "./ProductTab.jsx";
 
 function App() {
   return (
+    <div>
+      <ProductTab/>
     <ProductTab/>
-    <ProductTab/>
+    </div>
   );
 }
 
