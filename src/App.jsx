@@ -2,15 +2,16 @@ import "./App.css";
 import Title from "./Title.jsx";
 import Product from "./Product.jsx";
 import ProductTab from "./ProductTab.jsx";
+import User from "../MsgBox.jsx";
+import userdata from "../Usersmsgbox.jsx";
 
 
 
 function App() {
   return (
-    <div>
-      <ProductTab/>
-    <ProductTab/>
-    </div>
+    <>
+      <User userName="CG" textColor="pink"/>
+    </>
   );
 }
 
